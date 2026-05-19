@@ -14,6 +14,15 @@ To write a python program to perform stop and wait protocol
 ```
 import socket 
 s=socket.socket() 
+s.connect(('localhost',8000)) 
+while True: 
+    print(s.recv(1024).decode()) 
+    s.send("Acknowledgement Recived".encode())
+```
+# SERVER.PY
+```
+import socket 
+s=socket.socket() 
 s.bind(('localhost',8000)) 
 s.listen(5) 
 c,addr=s.accept() 
@@ -28,20 +37,12 @@ while True:
         c.close() 
         break
 ```
-# SERVER.PY
-```
-import socket 
-s=socket.socket() 
-s.connect(('localhost',8000)) 
-while True: 
-    print(s.recv(1024).decode()) 
-    s.send("Acknowledgement Recived".encode())
-```
 
 ## OUTPUT
 
 
-<img width="1000" height="952" alt="{28B2F871-9A81-441D-8E3F-70608485469E}" src="https://github.com/user-attachments/assets/01fe5644-726d-48d2-9ad8-3be5a44ae5ee" />
+<img width="1000" height="954" alt="{574EB336-776D-492D-ABDF-8E48875F8DE8}" src="https://github.com/user-attachments/assets/8afc6d65-4077-4dd7-a7df-3c513a7a62c0" />
+
 
 
 ## RESULT
