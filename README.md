@@ -41,7 +41,7 @@ while True:
 ## OUTPUT
 
 
-<img width="1000" height="941" alt="{2DD47FA6-0A7A-4520-BEAB-7D41063919F7}" src="https://github.com/user-attachments/assets/f19d5e4e-4108-40e1-bb5e-1683e5b382c3" />
+<img width="1000" height="952" alt="{28B2F871-9A81-441D-8E3F-70608485469E}" src="https://github.com/user-attachments/assets/01fe5644-726d-48d2-9ad8-3be5a44ae5ee" />
 
 
 ## RESULT
